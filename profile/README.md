@@ -1,8 +1,17 @@
 # Welcome to SigAuth
-We are trying to build the next generation of 
-authenticating and authorizing your apps and ressource to provide you with a clean and
-easy to use SSO experience. No matter if it's a already existing app supporting OAuth2, SAML
-or OIDC or it is just you building a app on your own.
+SigAuth is a SSO Authentication and Authorization platform similiar to Keykloak but with a sleeker modern design and a clear focus on authorizing dynamic ressources.
+It provides functionalty to perform CRUD operations on your assets like Blog posts, company assets (buildings, cars, ships) or you can let SigAuth mirror a existing data source
+and add a authorization layer on top.
 
 ## Audience of SigAuth
-Coming Soon
+SigAuth targets anyone who is building an application eco system primarily consisting of web apps. No matter to setup enable SSO for you home-lab or company.
+We are aiming for an enterprise ready, stable and reliant product which performs the heavy lifiting on all authorization and authentication problems enalbing you to
+fully focus on the functianality of your apps.
+
+# Features
+- [X] Create and Manage Asset(-types), Containers, Apps and Accounts
+- [X] Apply explicit permissions to accounts
+- [ ] OIDC (Implicit Protocol)
+- [ ] Easy to use node or react integration
+- [ ] Abstract permissions to groups
+- [ ] Add implicit permissions by defining relations between assets and accounts
