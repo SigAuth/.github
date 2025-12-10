@@ -22,7 +22,8 @@ For concerns, contact the maintainers via [sigabiel@gmail.com].
 # Features
 - [X] Create and Manage Asset(-types), Containers, Apps and Accounts
 - [X] Apply explicit permissions to accounts
-- [ ] OIDC (Implicit Protocol)
-- [ ] Easy to use node or react integration
+- [X] OIDC (Implicit Flow)
+- [X] Easy to use node, express, nextjs, nestjs integrations
+- [ ] Database Mirroring
 - [ ] Abstract permissions to groups
 - [ ] Add implicit permissions by defining relations between assets and accounts
